@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="MyColor.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>449, 6</value>
+  </metadata>
+  <metadata name="MainMenuToolTrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>545, 14</value>
+  </metadata>
+  <metadata name="grbChucNang_QLKho.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="id.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="name_product.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="unit.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="nhacungcap.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="soluong.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="index.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>362, 6</value>
+  </metadata>
+  <metadata name="cmtXoaList.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>702, 6</value>
+  </metadata>
+  <metadata name="cmtChinhSuaDV_BILL.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>813, 6</value>
+  </metadata>
+  <metadata name="tooltipInfoRoom.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>87, 11</value>
+  </metadata>
+  <metadata name="rptBill.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>210, 11</value>
+  </metadata>
+  <data name="rptBill.ReportResourceString" xml:space="preserve">
+    <value>﻿&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;Report ScriptLanguage="CSharp" UseFileCache="true" SmoothGraphics="true" ReportInfo.Created="10/29/2016 11:47:29" ReportInfo.Modified="11/19/2016 13:11:51" ReportInfo.CreatorVersion="2014.2.3.0"&gt;
+  &lt;ScriptText&gt;using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Windows.Forms;
+using System.Drawing;
+using System.Data;
+using FastReport;
+using FastReport.Data;
+using FastReport.Dialog;
+using FastReport.Barcode;
+using FastReport.Table;
+using FastReport.Utils;
+
+namespace FastReport
+{
+  public class ReportScript
+  {      
+
+    private void Table1_ManualBuild(object sender, EventArgs e)
+    {
+      DataSourceBase rowData = Report.GetDataSource(&amp;quot;FullView&amp;quot;);
+      rowData.Init();
+                                  
+            
+      while(rowData.HasMoreRows)
+      {
+        Table1.PrintRow(0);
+        Table1.PrintColumns();
+        rowData.Next();
+              
+      }
+      for(int i = 1; i &amp;lt;= 7; i++)
+      {
+        Table1.PrintRow(i);
+        Table1.PrintColumns();    
+      }
+      
+     
+      
+    }
+  }
+}
+
+&lt;/ScriptText&gt;
+  &lt;Dictionary/&gt;
+  &lt;ReportPage Name="Page1" PaperWidth="100" PaperHeight="200" Duplex="Simplex"&gt;
+    &lt;ReportTitleBand Name="ReportTitle1" Width="302.4" Height="113.4"&gt;
+      &lt;TextObject Name="Text1" Top="9.45" Width="302.4" Height="47.25" Text="[NAME]" HorzAlign="Center" VertAlign="Center" Font="Bradley Hand ITC, 15pt, style=Bold, Italic"/&gt;
+      &lt;TextObject Name="Text2" Left="123.94" Top="42.82" Width="179.55" Height="28.35" Text="[ADDRESS]" VertAlign="Center" Font="Arial, 10pt, style=Italic"/&gt;
+      &lt;TextObject Name="Text3" Left="141.75" Top="66.15" Width="141.75" Height="28.35" Text="[PHONENUMBER]" Font="Arial, 10pt, style=Italic"/&gt;
+      &lt;TextObject Name="Text4" Left="141.75" Top="85.05" Width="189" Height="28.35" Text="[WEBSITE]" Font="Arial, 10pt, style=Italic"/&gt;
+      &lt;TextObject Name="Text11" Left="18.89" Top="42.86" Width="103.95" Height="28.35" Text="Địa chỉ" HorzAlign="Right" VertAlign="Center" Font="Arial, 10pt, style=Italic"/&gt;
+      &lt;TextObject Name="Text12" Left="18.9" Top="66.15" Width="122.85" Height="28.35" Text="Số điện thoại" HorzAlign="Right" Font="Arial, 10pt, style=Italic"/&gt;
+      &lt;TextObject Name="Text13" Left="19.98" Top="85.02" Width="122.85" Height="28.35" Text="Website" HorzAlign="Right" Font="Arial, 10pt, style=Italic"/&gt;
+    &lt;/ReportTitleBand&gt;
+    &lt;PageHeaderBand Name="PageHeader1" Top="115.62" Width="302.4" Height="151.2"&gt;
+      &lt;TextObject Name="Text5" Left="-9.45" Width="311.85" Height="18.9" Text="**************************************&amp;#13;&amp;#10;" HorzAlign="Center"/&gt;
+      &lt;TextObject Name="Text6" Top="18.9" Width="302.4" Height="28.35" Text="[PHIEU]" HorzAlign="Center" Font="Arial, 15pt, style=Bold, Italic"/&gt;
+      &lt;TextObject Name="Text7" Left="151.2" Top="47.25" Width="122.85" Height="18.9" Text="[PHONG]" Font="Arial, 10pt, style=Italic"/&gt;
+      &lt;TextObject Name="Text8" Top="132.3" Width="94.5" Height="18.9" Border.Lines="Bottom" Border.BottomLine.Width="0.5" Text="Tên dịch vụ"/&gt;
+      &lt;TextObject Name="Text9" Left="94.5" Top="132.3" Width="66.15" Height="18.9" Border.Lines="Bottom" Border.BottomLine.Width="0.5" Text="Đơn giá"/&gt;
+      &lt;TextObject Name="Text10" Left="160.65" Top="132.3" Width="66.15" Height="18.9" Border.Lines="Bottom" Border.BottomLine.Width="0.5" Text="Số lượng"/&gt;
+      &lt;TextObject Name="Text14" Left="94.5" Top="47.25" Width="56.7" Height="18.9" Text="Phòng" HorzAlign="Right" Font="Arial, 10pt, style=Italic"/&gt;
+      &lt;TextObject Name="Text15" Left="226.8" Top="132.3" Width="75.6" Height="18.9" Border.Lines="Bottom" Border.BottomLine.Width="0.5" Text="Thành tiền"/&gt;
+      &lt;TextObject Name="Text18" Top="75.6" Width="56.7" Height="18.9" Text="Giờ vào" VertAlign="Center" Font="Arial, 8pt, style=Italic"/&gt;
+      &lt;TextObject Name="Text19" Left="0.07" Top="94.5" Width="56.7" Height="18.9" Text="Giờ ra" VertAlign="Center" Font="Arial, 8pt, style=Italic"/&gt;
+      &lt;TextObject Name="Text20" Left="45.58" Top="76.16" Width="100.09" Height="18.9" Text="[GIOVAO]" VertAlign="Center" Font="Arial, 8pt, style=Italic"/&gt;
+      &lt;TextObject Name="Text21" Left="38.91" Top="94.5" Width="111.22" Height="18.9" Text="[GIORA]" VertAlign="Center" Font="Arial, 8pt, style=Italic"/&gt;
+      &lt;TextObject Name="Text22" Left="170.1" Top="75.6" Width="56.7" Height="18.9" Text="Thu Ngân" HorzAlign="Right" VertAlign="Center" Font="Arial, 8pt, style=Italic"/&gt;
+      &lt;TextObject Name="Text23" Left="225.67" Top="75.6" Width="75.74" Height="18.9" Text="[IDNHANVIEN]" VertAlign="Center" Font="Arial, 8pt, style=Italic"/&gt;
+      &lt;TextObject Name="Text40" Left="141.75" Top="94.5" Width="85.05" Height="18.9" Text="Ngày lập phiếu" VertAlign="Center" Font="Arial, 8pt, style=Italic"/&gt;
+      &lt;TextObject Name="Text41" Left="218.95" Top="94.49" Width="111.17" Height="18.9" Text="[NGAYLAPPHIEU]" VertAlign="Center" Font="Arial, 7pt, style=Italic"/&gt;
+    &lt;/PageHeaderBand&gt;
+    &lt;DataBand Name="Data1" Top="269.04" Width="302.4" Height="151.2"&gt;
+      &lt;TableObject Name="Table1" Width="302.19" Height="151.2" ManualBuildEvent="Table1_ManualBuild"&gt;
+        &lt;TableColumn Name="Column1" Width="99.34"/&gt;
+        &lt;TableColumn Name="Column2" Width="72.01"/&gt;
+        &lt;TableColumn Name="Column3" Width="57.61"/&gt;
+        &lt;TableColumn Name="Column4" Width="73.23"/&gt;
+        &lt;TableRow Name="Row1"&gt;
+          &lt;TableCell Name="Cell1" Border.Lines="Bottom" Border.BottomLine.Style="Dash" Border.BottomLine.Width="0.25" Text="[FullView.TenDichVu]" VertAlign="Center" Font="Arial, 9pt"/&gt;
+          &lt;TableCell Name="Cell2" Border.Lines="Bottom" Border.BottomLine.Style="Dash" Border.BottomLine.Width="0.25" Text="[FullView.DonGia]" VertAlign="Center" Font="Arial, 9pt"/&gt;
+          &lt;TableCell Name="Cell3" Border.Lines="Bottom" Border.BottomLine.Style="Dash" Border.BottomLine.Width="0.25" Text="[FullView.SoLuong]" VertAlign="Center" Font="Arial, 9pt"/&gt;
+          &lt;TableCell Name="Cell4" Border.Lines="Bottom" Border.BottomLine.Style="Dash" Border.BottomLine.Width="0.25" Text="[FullView.ThanhTien]" VertAlign="Center" Font="Arial, 9pt"/&gt;
+        &lt;/TableRow&gt;
+        &lt;TableRow Name="Row2"&gt;
+          &lt;TableCell Name="Cell5" ColSpan="4"&gt;
+            &lt;TextObject Name="Text25" Left="207.9" Width="94.5" Height="18.9" Border.Lines="Top" Text="[THOIGIANTHUEPHONG]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+            &lt;TextObject Name="Text42" Width="207.9" Height="18.9" Border.Lines="Top" Text="Giờ hát" HorzAlign="Right" VertAlign="Center" Font="Arial, 8pt, style=Italic"/&gt;
+          &lt;/TableCell&gt;
+          &lt;TableCell Name="Cell6"/&gt;
+          &lt;TableCell Name="Cell7"/&gt;
+          &lt;TableCell Name="Cell8"/&gt;
+        &lt;/TableRow&gt;
+        &lt;TableRow Name="Row3"&gt;
+          &lt;TableCell Name="Cell9" ColSpan="4"&gt;
+            &lt;TextObject Name="Text16" Left="103.95" Width="103.95" Height="18.9" Text="Tổng tiền dịch vụ" HorzAlign="Right" VertAlign="Center" Font="Arial, 8pt, style=Italic"/&gt;
+            &lt;TextObject Name="Text17" Left="207.9" Width="94.5" Height="18.9" Text="[TONGTIENDICHVU]" VertAlign="Center" Font="Arial, 8pt"/&gt;
+          &lt;/TableCell&gt;
+          &lt;TableCell Name="Cell10"/&gt;
+          &lt;TableCell Name="Cell11"/&gt;
+          &lt;TableCell Name="Cell12"/&gt;
+        &lt;/TableRow&gt;
+        &lt;TableRow Name="Row4"&gt;
+          &lt;TableCell Name="Cell13" ColSpan="4"&gt;
+            &lt;TextObject Name="Text29" Left="207.9" Width="94.5" Height="18.9" Text="[TIENHAT]" VertAlign="Center" Font="Arial, 8pt, style=Italic"/&gt;
+            &lt;TextObject Name="Text26" Left="103.95" Width="103.95" Height="18.9" Text="Tiền hát" HorzAlign="Right" VertAlign="Center" Font="Arial, 8pt, style=Italic"/&gt;
+          &lt;/TableCell&gt;
+          &lt;TableCell Name="Cell14"/&gt;
+          &lt;TableCell Name="Cell15"/&gt;
+          &lt;TableCell Name="Cell16"/&gt;
+        &lt;/TableRow&gt;
+        &lt;TableRow Name="Row5"&gt;
+          &lt;TableCell Name="Cell17" ColSpan="4"&gt;
+            &lt;TextObject Name="Text30" Left="207.9" Width="94.5" Height="18.9" Text="[GIAMGIA]" VertAlign="Center" Font="Arial, 8pt, style=Italic"/&gt;
+            &lt;TextObject Name="Text28" Left="103.95" Width="103.95" Height="18.9" Text="Giảm giá" HorzAlign="Right" VertAlign="Center" Font="Arial, 8pt, style=Italic"/&gt;
+          &lt;/TableCell&gt;
+          &lt;TableCell Name="Cell18"/&gt;
+          &lt;TableCell Name="Cell19"/&gt;
+          &lt;TableCell Name="Cell20"/&gt;
+        &lt;/TableRow&gt;
+        &lt;TableRow Name="Row6"&gt;
+          &lt;TableCell Name="Cell21" ColSpan="4"&gt;
+            &lt;TextObject Name="Text38" Left="207.9" Width="94.5" Height="18.9" Text="[TIENDATTRUOC]" VertAlign="Center" Font="Arial, 8pt, style=Italic"/&gt;
+            &lt;TextObject Name="Text37" Left="103.95" Width="103.95" Height="18.9" Text="Tiền đặt trước" HorzAlign="Right" VertAlign="Center" Font="Arial, 8pt, style=Italic"/&gt;
+          &lt;/TableCell&gt;
+          &lt;TableCell Name="Cell22"/&gt;
+          &lt;TableCell Name="Cell23"/&gt;
+          &lt;TableCell Name="Cell24"/&gt;
+        &lt;/TableRow&gt;
+        &lt;TableRow Name="Row7"&gt;
+          &lt;TableCell Name="Cell25" ColSpan="4"&gt;
+            &lt;TextObject Name="Text32" Left="207.9" Width="94.5" Height="18.9" Text="[PHUTHU]" VertAlign="Center" Font="Arial, 8pt, style=Italic"/&gt;
+            &lt;TextObject Name="Text31" Left="103.95" Width="103.95" Height="18.9" Text="Phụ thu" HorzAlign="Right" VertAlign="Center" Font="Arial, 8pt, style=Italic"/&gt;
+          &lt;/TableCell&gt;
+          &lt;TableCell Name="Cell26"/&gt;
+          &lt;TableCell Name="Cell27"/&gt;
+          &lt;TableCell Name="Cell28"/&gt;
+        &lt;/TableRow&gt;
+        &lt;TableRow Name="Row8"&gt;
+          &lt;TableCell Name="Cell29" ColSpan="4"&gt;
+            &lt;TextObject Name="Text35" Left="103.95" Width="103.95" Height="18.9" Text="Tổng tiền" HorzAlign="Right" VertAlign="Center" Font="Arial, 8pt, style=Italic"/&gt;
+            &lt;TextObject Name="Text36" Left="207.9" Width="94.5" Height="18.9" Text="[TONGTIEN]" VertAlign="Center" Font="Arial, 8pt, style=Italic"/&gt;
+          &lt;/TableCell&gt;
+          &lt;TableCell Name="Cell30"/&gt;
+          &lt;TableCell Name="Cell31"/&gt;
+          &lt;TableCell Name="Cell32"/&gt;
+        &lt;/TableRow&gt;
+      &lt;/TableObject&gt;
+    &lt;/DataBand&gt;
+    &lt;PageFooterBand Name="PageFooter1" Top="422.47" Width="302.4" Height="245.7"&gt;
+      &lt;TextObject Name="Text39" Left="47.25" Top="160.65" Width="207.9" Height="18.9" Text="Cảm ơn quý khách và hẹn gặp lại!" HorzAlign="Center" VertAlign="Center" Font="Leelawadee UI, 8pt, style=Italic"/&gt;
+      &lt;TextObject Name="Text27" Left="66.15" Top="189" Width="160.65" Height="18.9" Text="[Date]" HorzAlign="Center" Font="Arial, 7pt, style=Italic"/&gt;
+    &lt;/PageFooterBand&gt;
+  &lt;/ReportPage&gt;
+&lt;/Report&gt;
+</value>
+  </data>
+  <metadata name="cmtThongKe.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>980, 6</value>
+  </metadata>
+  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>71</value>
+  </metadata>
+</root>
