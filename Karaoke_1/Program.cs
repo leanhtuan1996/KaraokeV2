@@ -1,14 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 using System.Globalization;
-using Karaoke_1.GUI;
-using System.Threading;
 using Microsoft.VisualBasic.ApplicationServices;
-using System.Runtime.InteropServices;
 
 namespace Karaoke_1.GUI
 {
